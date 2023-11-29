@@ -230,7 +230,7 @@ def game_loop():
 
             top_score_font = font.render('Top Score:'+str(topscore.high_score),True,GREEN)
             top_score_font_rect = top_score_font.get_rect()
-            top_score_font_rect.center = (800, cactus_img_rect.bottom + score_font_rect.height/2)
+            top_score_font_rect.center = (600, cactus_img_rect.bottom + score_font_rect.height/2)
             canvas.blit(top_score_font, top_score_font_rect)
 
             canvas.blit(cactus_img, cactus_img_rect)
