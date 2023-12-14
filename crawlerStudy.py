@@ -29,4 +29,4 @@ for item in result2:
 
     result3 = obj3.search(cresp.text)
     print(result3.group("download"))
-
+    print(result3.group("download"))
